@@ -1,0 +1,73 @@
+/* Main content section styling */
+.content-section {
+    background-color: black; /* Black background */
+    color: white; /* White text */
+    padding: 50px 20px;
+  }
+  
+  /* Header styling */
+  .header {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .header h1 {
+    color: red; /* Red text for main header */
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: white;
+  }
+  
+  /* Buttons styling */
+  .action-buttons button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .action-buttons .btn-danger {
+    background-color: red;
+    border: none;
+  }
+  
+  .action-buttons .btn-link {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  /* Features section styling */
+  .features-section {
+    margin-top: 30px;
+  }
+  
+  .feature-box {
+    background-color: #1c1c1c; /* Dark gray background */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .feature-box h6 {
+    color: red; /* Red text for titles */
+    font-size: 1.2rem;
+  }
+  
+  .feature-box p {
+    color: #ccc; /* Light gray for description */
+    font-size: 1rem;
+  }
+  
+  .feature-link {
+    text-decoration: none;
+    color: red;
+  }
+  
+  .feature-link:hover {
+    text-decoration: underline;
+  }

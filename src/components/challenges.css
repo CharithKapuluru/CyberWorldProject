@@ -1,0 +1,126 @@
+.challenges-container {
+  min-height: 100vh;
+  background-color: #000;
+  padding: 2rem;
+}
+
+.challenges-content {
+  max-width: 64rem;
+  margin: 0 auto;
+}
+
+.challenges-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: #dc2626;
+  margin-bottom: 3rem;
+}
+
+.challenges-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.challenge-group {
+  background-color: #111827;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  transition: all 0.2s ease;
+}
+
+.challenge-group:hover {
+  background-color: #1f2937;
+}
+
+.challenge-group-header {
+  width: 100%;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: inherit;
+  text-align: left;
+}
+
+.challenge-group-content {
+  flex: 1;
+}
+
+.challenge-group-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #dc2626;
+}
+
+.challenge-group-description {
+  color: #9ca3af;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.challenge-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 1rem;
+  flex-shrink: 0;
+  transition: transform 0.2s ease;
+  color: #9ca3af;
+}
+
+.challenge-icon.rotated {
+  transform: rotate(45deg);
+}
+
+.challenge-dropdown {
+  padding: 0 1.5rem 1.5rem;
+  border-top: 1px solid #374151;
+}
+
+.challenge-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.challenge-card {
+  padding: 1rem;
+  background-color: #1f2937;
+  border-radius: 0.375rem;
+  margin-top: 1rem;
+  transition: background-color 0.2s ease;
+}
+
+.challenge-card:hover {
+  background-color: #374151;
+}
+
+.challenge-title {
+  color: #e5e7eb;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+@media (max-width: 640px) {
+  .challenges-container {
+    padding: 1rem;
+  }
+
+  .challenges-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .challenge-group-header {
+    padding: 1rem;
+  }
+
+  .challenge-dropdown {
+    padding: 0 1rem 1rem;
+  }
+}
