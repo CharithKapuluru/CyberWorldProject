@@ -21,8 +21,12 @@ const providerConfig = {
   onRedirectCallback,
   authorizationParams: {
     redirect_uri: window.location.origin,
-    ...(config.audience ? { audience: config.audience } : null),
+    audience: config.audience,
   },
+  // Add these properties to persist the session
+  useRefreshTokens: true,
+  cacheLocation: "localstorage",
+  persistanceMethod: "local",
 };
 
 const root = createRoot(document.getElementById('root'));
