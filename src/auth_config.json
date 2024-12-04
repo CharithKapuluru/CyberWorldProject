@@ -1,5 +1,6 @@
 {
   "domain": "dev-ynkmhzph8ppduqtc.us.auth0.com",
-  "clientId": "0fWsugERuerJZRSjJRQdvS5OaM5QFuUY",
-  "audience": "https://dev-ynkmhzph8ppduqtc.us.auth0.com/api/v2/"
+  "clientId": "tgd7HXKfW4dzXxBbhXbyMW5T3QQEIpjC",
+  "audience": "https://dev-ynkmhzph8ppduqtc.us.auth0.com/api/v2/",
+  "redirectUri": "http://localhost:3000"
 }
